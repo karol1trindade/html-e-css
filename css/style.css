@@ -1,0 +1,21 @@
+body{
+    background-color: pink;
+}
+
+label{
+    color:crimson;
+    font-size: 22px;
+
+}
+/* o ponto representa a classe que pode ser usada em mais de uma coisa*/
+.vermelho{
+        color: red;
+        font-weight: bold;
+        font-size: 12px;
+    }
+/* # é identificador para só ser usado uma vez*/
+#verde{
+    color: green;
+    font-style: italic;
+
+}

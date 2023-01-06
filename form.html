@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+  
+    <title>Document</title>
+    <!--CSS EXTERNO-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+    <p class="vermelho"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eum excepturi sed ducimus blanditiis sit ab voluptatibus facere nostrum hic asperiores facilis deserunt, libero nam incidunt optio alias fugit dolorum. </p>
+    <form>
+        <label for="nome"> Nome: </label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+        
+        <br><br>
+        
+        <label for="datanasc"> Data de Nascimento: </label>
+        <input type="date" name="data-nasc" id="datanasc">
+        
+        <br><br>
+        
+        <label for="endereco"> Endereço: </label>
+        <input type="text" name="endereco" id="endereco">
+        
+        <br><br>
+        
+        <label for="numcasa"> Número: </label>
+        <input type="number" name="numero" id="numcasa">
+
+        <br><br>
+
+        <label for="cidade"> Cidade: </label>
+        <select name="cidade" id="cidade"> Cidade:
+            <option value="cab"> Cabo</option> 
+            <option value="jab"> Jaboatão </option>
+            <option value="oli"> Olinda </option>
+            <option value="rec" selected> Recife </option>
+        </select>
+
+        <br><br>
+
+        <label for="est-civil"> Estado Cívil: </label><br>
+        <input type="radio" name="est-civil" id="solteiro"> Solteiro(a)<br>
+        <input type="radio" name="est-civil" id="casado"> Casado(a)<br>
+        <input type="radio" name="est-civil" id="viuvo"> Viúvo(a)<br>
+
+        <br><br>
+
+        <label for="preferencias"> Preferências: </label><br>
+        <input type="checkbox" name="preferencias" id="preferencia1"> Tech <br>
+        <input type="checkbox" name="preferencias" id="preferencia2"> Esportes <br>
+        <input type="checkbox" name="preferencias" id="preferencia3"> Outros <br>
+        
+        <br><br>
+
+        <input type="submit" value="Enviar">
+        <button> Limpar </button>
+
+    </form>
+    
+</body>
+</html>
